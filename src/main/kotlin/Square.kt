@@ -1,0 +1,1 @@
+data class Square(val length: Double): Shape
