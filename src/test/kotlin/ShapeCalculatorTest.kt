@@ -21,13 +21,11 @@ class ShapeCalculatorTest(
 
     @Test
     fun `should have area and perimeter initial values of 0`() {
-        testCases.forEach { _ ->
-            val actualArea = calculatorInstance.area()
-            val actualPerimeter = calculatorInstance.perimeter()
+        val actualArea = calculatorInstance.area()
+        val actualPerimeter = calculatorInstance.perimeter()
 
-            assertEquals(0.0, actualArea)
-            assertEquals(0.0, actualPerimeter)
-        }
+        assertEquals(0.0, actualArea)
+        assertEquals(0.0, actualPerimeter)
     }
 
     @Test
